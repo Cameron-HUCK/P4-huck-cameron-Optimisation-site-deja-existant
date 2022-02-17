@@ -49,7 +49,7 @@ a:hover {
 }
 
 .bloc-md {
-    padding: 50px;
+    padding-bottom: 50px
 }
 
 .bloc-sm {
@@ -645,7 +645,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -677,7 +676,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -688,6 +689,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #FFF;
 }
 
 .cta-hero {
@@ -704,16 +706,16 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
+h3{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+h4, h6{
+    font-size: 22px;
+    line-height: 1.4em;
 }
 
 .med-width-whitespace {
@@ -723,13 +725,18 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #111111!important;
+}
+h2{
+    font-size: 25px;
 }
 
-h4 {
+h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
     color: #333333!important;
 }
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
