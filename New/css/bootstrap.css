@@ -1434,7 +1434,8 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-
+    width: 270px;
+    height: 270px;
 }
 
 .img-rounded {
